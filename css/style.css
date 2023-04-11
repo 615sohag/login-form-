@@ -1,0 +1,95 @@
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a, a: hover{
+	text-decoration: none
+}
+
+/******* css start from here ***********/
+.loginbox{
+	width: 30%;
+	margin: 50px 30%;
+	box-decoration-break: 
+}
+.main-form{
+	width: 100%;
+	padding: 30%;
+	background-color: #eee;
+	border: 2px solid red;
+	border-radius: 10px;
+}
+.main-form .avater-img{
+	width: 100%;
+	text-align: center;
+}
+.main-form .avater-img .avater{
+	width: 130px;
+	height : 130px;
+	border-radius: 60%;
+	border: 4px solid #FC1904;
+}
+.main-form h2{
+	font-size: 24px;
+	line-height: 34px;
+	color: #CD1E0D;
+	text-transform: unset;
+	font-weight: 500;
+	text-align: center;
+	margin: 15px 0px;
+}
+.main-form .form-group{
+	width: 100%;
+	margin: 10px 0pc;
+}
+.main-form .form-group label{
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin: 0px 0px 2px;
+}
+.main-form .form-control{
+	width: 97%;
+	padding: 10px;
+	font-size: 13px;
+	border: 1px solid #155504;
+}
+.main-form .btn-btn{
+	padding: 15px 40px;
+	border: 1px solid #000;
+	background: red;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: unset;
+	margin: 15px 10px 0px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.main-form .btn-btn:hover{
+	transition: 1s;
+	border: 1px solid #000;
+	background: green;
+	color: blue;
+}
+.main-form .btn{
+	padding: 15px 50px;
+	border: 1px solid #000;
+	background: black;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: unset;
+	margin: 15px 10px 0px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.main-form .btn:hover{
+	transition: 1s;
+	border: 1px solid #000;
+	background: green;
+	color: #EAF906;
+}
